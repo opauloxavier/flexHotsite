@@ -1,0 +1,105 @@
+h1, h2, h3, h4, h5, legend {
+  font-family: Montserrat,sans-serif;
+  font-weight: 700; }
+
+.blockquote {
+  background-color: #4bb748;
+  color: #ffffff;
+  padding: 10px 0px;
+  margin-bottom: 30px; }
+  .blockquote .blockquote-reverse {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8em; }
+  .blockquote cite {
+    color: #ffffff;
+    text-align: left; }
+
+blockquote footer, blockquote small, blockquote .small {
+  color: #ffffff; }
+
+#sobre {
+  background-color: #afd437;
+  background-image: url("../img/bg-sec-1.png");
+  padding: 20px 0;
+  color: #192402; }
+
+legend {
+  border-bottom: 1px solid #afd437; }
+
+.footer {
+  padding: 20px 0;
+  margin-bottom: -15px;
+  background-color: #4bb748;
+  height: 60px; }
+  .footer p {
+    text-align: center;
+    color: #ffffff; }
+
+#content .row {
+  margin-bottom: 20px; }
+
+.btn {
+  margin-left: 10px; }
+
+.footer a {
+  color: #445b01; }
+  .footer a:hover, .footer a:focus, .footer a:active {
+    text-decoration: none; }
+
+#contato {
+  background-color: #afd437;
+  margin-top: 20px; }
+  #contato h3 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 15px 0; }
+  #contato form .row {
+    margin-bottom: 20px; }
+  #contato p {
+    color: #445b01; }
+
+legend {
+  color: #192402;
+  font-weight: bold;
+  font-size: 1.6em; }
+
+.jumbotron {
+  height: 750px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-image: url("../img/slider.png");
+  background-size: cover;
+  background-position-x: center; }
+
+.vertical-center {
+  display: flex;
+  align-items: center; }
+
+body {
+  overflow-x: hidden;
+  font-family: Roboto,sans-serif;
+  color: #212121; }
+
+.container img {
+  margin-bottom: 20px; }
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px; }
+
+  #sobre {
+    background-repeat: no-repeat;
+    background-position: bottom; } }
+.navbar {
+  margin-bottom: 0; }
+
+.blockquote-reverse, blockquote.pull-right {
+  border-right: 0px solid #afd437; }
+
+.bg-odd {
+  background-color: #fafafa; }
+
+/*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,152 @@
+$color-primary: #afd437;
+$color-secondary: #445b01;
+$color-third: #4bb748;
+
+$font-primary: #212121;
+$font-secondary:#192402;
+$font-white: #ffffff;
+
+h1,h2,h3,h4,h5,legend{
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+}
+
+.blockquote{
+    background-color: $color-third;
+    color: $font-white;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    .blockquote-reverse{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.8em;
+    }
+    cite{
+        color: $font-white;
+        text-align: left;
+    }
+}
+
+blockquote footer, blockquote small, blockquote .small{
+        color: $font-white;
+}
+
+#sobre{
+    background-color: $color-primary;
+    background-image:url('../img/bg-sec-1.png');
+    padding: 20px 0;
+    color: $font-secondary;
+}
+
+legend{
+    border-bottom:1px solid $color-primary;
+}
+
+.footer{
+    padding: 20px 0;
+    margin-bottom:-15px;
+     background-color: $color-third;
+     height: 60px;
+    
+    p{
+        text-align: center;
+        color: $font-white;
+    }
+}
+
+#content{
+    .row{
+        margin-bottom: 20px;
+    }
+}
+
+.btn{
+    margin-left:10px;
+}
+
+.footer{
+    a{
+        color:$color-secondary;
+        
+        &:hover,&:focus,&:active{
+            text-decoration: none;
+        }
+    }
+}
+
+#contato{
+    background-color: $color-primary;
+    margin-top:20px;
+    
+    h3{
+        text-align:center;
+        color: $font-white;
+        font-weight: bold;
+        padding: 15px 0;
+    }
+    
+    form{
+        .row{
+            margin-bottom: 20px;
+        }
+    }
+    
+    p{
+        color:$color-secondary;
+    }
+}
+
+legend{
+    color:$font-secondary;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.jumbotron{
+    height: 750px;
+    text-align:center;
+    margin-bottom: 0;
+    margin-top:0;
+    background-image: url("../img/slider.png");
+    background-size: cover;
+    background-position-x: center;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: Roboto,sans-serif;
+    color: $font-primary;
+}
+
+.container{
+    img{
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px){
+    .navbar {
+        border-radius: 0px;
+    }
+    #sobre{
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+}
+
+.navbar{
+    margin-bottom:0;
+}
+
+.blockquote-reverse, blockquote.pull-right{
+    border-right: 0px solid $color-primary;
+}
+
+.bg-odd{
+    background-color: #fafafa;
+}

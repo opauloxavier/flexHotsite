@@ -3,6 +3,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexibilité - Pilates e Estética</title>
     <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="custom/css/custom.css"/>
@@ -10,6 +11,7 @@
     <link rel="shortcut icon" href="custom/img/favicon.png" type="image/x-icon">
     <script type="text/javascript" src="assets/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="custom/js/analytics.js"></script>
     <script type="text/javascript" src="custom/js/custom.js"></script>
     <style>
     @import 'https://fonts.googleapis.com/css?family=Roboto|Montserrat:700|Montserrat';
@@ -19,14 +21,22 @@
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-left" href="<?= SITE_URL ?>"><img src="custom/img/logo.png" class="img-responsive" style="height:50px; padding-top:5px; margin-bottom:5px;"></a>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Abrir Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+                <a class="navbar-left" href="<?= SITE_URL ?>"><img src="custom/img/logo.png" class="img-responsive" id="logo"></a>
             </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
     <div class="jumbotron vertical-center">
@@ -107,41 +117,20 @@
             </div>
             <div class="container">
             <div class="row">
-                <legend>Estética Facial e Corporal</legend>
-                <div class="col-md-4"><img src="custom/img/estetica.png" class="img-responsive"></div>
+                <legend>Acupuntura</legend>
+                <div class="col-md-4"><img src="custom/img/acupuntura.jpg" class="img-responsive"></div>
                 <div class="col-md-8">
                     <p>
-                    A massagem ajuda a deixar de lado todas as preocupações, em um ambiente 
-                    calma e aconchegante feito para te fazer relaxar. Em um mundo no qual as 
-                    pessoas estão cada vez mais estressadas e precisam fazer muitas coisas em 
-                    menos tempo, tudo isso acaba causando dores musculares e muita tensão. Por 
-                    isso, é essencial arrumar um tempo para conseguir relaxar. Já imaginou juntar 
-                    esse tempinho e, enquanto você relaxa profundamente, ainda tratar várias 
-                    dores e diminuir a tensão que você sente pelo corpo? É isso que a massagem 
-                    relaxante faz por você.
+                    A acupuntura é um conjunto de práticas terapêuticas inspirado nas tradições médicas orientais. Criada há mais de dois milênios, a acupuntura é um 
+                    dos tratamentos médicos mais antigos do mundo. Consiste na estimulação de locais anatômicos sobre ou na pele – os chamados pontos de acupuntura.
+                    </p>
+                    <p><strong>Para que serve</strong></p>
+                    <p>
+                    A acupuntura busca a recuperação do organismo como um todo pela indução de processos regenerativos, normalização das funções alteradas, reforço do sistema imunológico e controle da dor.
                     </p>
                     <p>
-                    Existem vários tipos de massagens relaxantes, como: 
-                    Anti Stress: essa massagem é indicada para aliviar tensões físicas e 
-                    emocionais, e é feita de uma maneira mais leve, para impulsionar a produção 
-                    de ocitocina, que é um hormônio que produz uma sensação que irá reduzir o 
-                    estresse diário. Além disso, esse toque mais leve aumenta a circulação 
-                    sanguínea, e a pele e a musculatura relaxam. 
-                    </p>
-                    <p>
-                   <strong>Shiatsu</strong>: Esta técnica é realizada nos pontos energéticos do corpo, chamados 
-                    meridianos. O principal objetivo do Shiatsu é manter ou (re)estabelecer o 
-                    equilíbrio energético, a fim de prevenir ou tratar disfunções que sejam 
-                    causadas pelo desequilíbrio dessa energia. Segundo a visão da Medicina 
-                    Oriental as doenças são originadas pela desregulação de energia nos 
-                    meridianos.
+                    A acupuntura é especialmente indicada para a redução da dor em casos de fibromialgia e dores localizadas nas costas, tratamento de náuseas e vômitos em pacientes que se submetem a quimioterapias ou cirurgias, e diminuição da tensão emocional.
                     </p> 
-                    Indicada para: 
-                    <ul>
-                        <li>Combate a dores musculares</li>
-                        <li>Relaxamento</li>
-                        <li>Alívio de tensões</li>
-                    </ul>
                 </div>
             </div>
             <div class="row">
@@ -183,7 +172,6 @@
                         </p>
                 </div>
             </div>
-            </div>
         </div>
         <div class="container-fluid" id="contato">
             <div class="container">
@@ -196,10 +184,10 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="form-group">
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-xs-6 col-sm-6">
                                         <input type="text" name="nome" placeholder="Nome" class="form-control" required>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-xs-6 col-sm-6">
                                         <input type="email" name="email" placeholder="Email" class="form-control" required>
                                     </div>
                                 </div>

@@ -39,9 +39,6 @@ legend {
 #content .row {
   margin-bottom: 20px; }
 
-.btn {
-  margin-left: 10px; }
-
 .footer a {
   color: #445b01; }
   .footer a:hover, .footer a:focus, .footer a:active {
@@ -101,5 +98,19 @@ body {
 
 .bg-odd {
   background-color: #fafafa; }
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #4bb748; }
+
+.navbar-default .navbar-toggle {
+  background-color: #4bb748; }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: white; }
+
+#logo {
+  height: 50px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px; }
 
 /*# sourceMappingURL=custom.css.map */

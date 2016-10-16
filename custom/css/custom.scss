@@ -60,10 +60,6 @@ legend{
     }
 }
 
-.btn{
-    margin-left:10px;
-}
-
 .footer{
     a{
         color:$color-secondary;
@@ -149,4 +145,22 @@ body{
 
 .bg-odd{
     background-color: #fafafa;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background-color: $color-third;
+}
+
+.navbar-default .navbar-toggle {
+        background-color: $color-third;
+    .icon-bar{
+     background-color: white;   
+    }
+}
+
+#logo{
+    height:50px; 
+    padding-top:5px; 
+    margin-bottom:5px;
+    margin-left:10px;
 }

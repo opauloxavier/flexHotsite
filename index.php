@@ -139,7 +139,7 @@
                 <div class="container">
                     <div class="row">
                         <legend>Day Spa</legend>
-                        <div class="col-md-6 col-xs-6 col-xs-push-6">
+                        <div class="col-md-6 col-xs-6 col-xs-push-6 col-md-push-0">
                             <ol>
                                 <li>Acupuntura</li>
                                 <li>Auriculoterapia</li>
@@ -157,7 +157,7 @@
                                 <li>Tratamento para Manchas com luz Pulsada</li>
                             </ol>
                         </div>
-                        <div class="col-md-6 col-xs-pull-6">
+                        <div class="col-md-6 col-xs-6 col-xs-pull-6 col-md-pull-0">
                             <p>O Day Spa nada mais é que um pacote onde são agregados serviços que vão 
                                 desde massagens relaxantes, a tratamentos faciais, serviços em pés e mãos, 
                                 além de shiatsu, banhos, ofurô e aromoterapia. Enfim, não há uma receita de 
@@ -178,7 +178,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         <div class="container-fluid" id="contato">
             <div class="container">
                 <div class="row" >

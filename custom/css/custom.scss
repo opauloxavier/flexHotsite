@@ -72,8 +72,7 @@ legend{
 
 #contato{
     background-color: $color-primary;
-    margin-top:20px;
-    
+
     h3{
         text-align:center;
         color: $font-white;
@@ -145,6 +144,7 @@ body{
 
 .bg-odd{
     background-color: #fafafa;
+    padding: 20px 0;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
@@ -163,4 +163,15 @@ body{
     padding-top:5px; 
     margin-bottom:5px;
     margin-left:10px;
+}
+
+form{
+    p{
+        a{
+            &:hover{
+             text-decoration: none;    
+            }
+            
+        }
+    }
 }

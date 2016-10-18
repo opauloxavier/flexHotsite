@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexibilité - Pilates e Estética</title>
     <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="custom/css/custom.css"/>
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css"/>
     <link rel="shortcut icon" href="custom/img/favicon.png" type="image/x-icon">
@@ -116,60 +117,65 @@
                 </div>
             </div>
             <div class="container">
-            <div class="row">
-                <legend>Acupuntura</legend>
-                <div class="col-md-4"><img src="custom/img/acupuntura.jpg" class="img-responsive"></div>
-                <div class="col-md-8">
-                    <p>
-                    A acupuntura é um conjunto de práticas terapêuticas inspirado nas tradições médicas orientais. Criada há mais de dois milênios, a acupuntura é um 
-                    dos tratamentos médicos mais antigos do mundo. Consiste na estimulação de locais anatômicos sobre ou na pele – os chamados pontos de acupuntura.
-                    </p>
-                    <p><strong>Para que serve</strong></p>
-                    <p>
-                    A acupuntura busca a recuperação do organismo como um todo pela indução de processos regenerativos, normalização das funções alteradas, reforço do sistema imunológico e controle da dor.
-                    </p>
-                    <p>
-                    A acupuntura é especialmente indicada para a redução da dor em casos de fibromialgia e dores localizadas nas costas, tratamento de náuseas e vômitos em pacientes que se submetem a quimioterapias ou cirurgias, e diminuição da tensão emocional.
-                    </p> 
+                <div class="row">
+                    <legend>Acupuntura</legend>
+                    <div class="col-md-4"><img src="custom/img/acupuntura.jpg" class="img-responsive"></div>
+                    <div class="col-md-8">
+                        <p>
+                        A acupuntura é um conjunto de práticas terapêuticas inspirado nas tradições médicas orientais. Criada há mais de dois milênios, a acupuntura é um 
+                        dos tratamentos médicos mais antigos do mundo. Consiste na estimulação de locais anatômicos sobre ou na pele – os chamados pontos de acupuntura.
+                        </p>
+                        <p><strong>Para que serve</strong></p>
+                        <p>
+                        A acupuntura busca a recuperação do organismo como um todo pela indução de processos regenerativos, normalização das funções alteradas, reforço do sistema imunológico e controle da dor.
+                        </p>
+                        <p>
+                        A acupuntura é especialmente indicada para a redução da dor em casos de fibromialgia e dores localizadas nas costas, tratamento de náuseas e vômitos em pacientes que se submetem a quimioterapias ou cirurgias, e diminuição da tensão emocional.
+                        </p> 
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <legend>Day Spa</legend>
-                <div class="col-md-6">
-                    <ol>
-                        <li>Acupuntura</li>
-                        <li>Auriculoterapia</li>
-                        <li>Criolipolise</li>
-                        <li>Criofrequencia</li>
-                        <li>Dermaroller</li>
-                        <li>Eletrolipolise</li>
-                        <li>Endermologia</li>
-                        <li>Fotodepilação</li>
-                        <li>Corrente Russa</li>
-                        <li>Limpeza de pele profunda</li>
-                        <li>Massagem Modeladora</li>
-                        <li>Peeling Quimico e Diamante</li>
-                        <li>Reflexologia e Shiatsu Corporativo e para Festas e Eventos</li>
-                        <li>Tratamento para Manchas com luz Pulsada</li>
-                    </ol>
-                </div>
-                <div class="col-md-6">
-                    <p>O Day Spa nada mais é que um pacote onde são agregados serviços que vão 
-                        desde massagens relaxantes, a tratamentos faciais, serviços em pés e mãos, 
-                        além de shiatsu, banhos, ofurô e aromoterapia. Enfim, não há uma receita de 
-                        bolo, mas há resultado: bem estar.</p>
-                        <p> Há pacotes para todos os tipos, dos mais 
-                        simples aos mais completos. Os valores também vão variar de acordo com os 
-                        serviços agregados ou as instalações disponíveis. 
-                        <p>
-                        Você monta seu Day Spa: 
-                        pode incluir, massagem com bambu, ritual no couro cabeludo, sais… Enfim, 
-                        não faltam opções. Alguns incluem refeição, dependendo do tempo que você 
-                        disponibiliza para seu dia de relax.
-                        </p>
-                        <p>
-                        Consulte os pacotes e valores via e-mail.
-                        </p>
+            <div class="container-fluid bg-odd">
+                <div class="container">
+                    <div class="row">
+                        <legend>Day Spa</legend>
+                        <div class="col-md-6 col-xs-6 col-xs-push-6">
+                            <ol>
+                                <li>Acupuntura</li>
+                                <li>Auriculoterapia</li>
+                                <li>Criolipolise</li>
+                                <li>Criofrequencia</li>
+                                <li>Dermaroller</li>
+                                <li>Eletrolipolise</li>
+                                <li>Endermologia</li>
+                                <li>Fotodepilação</li>
+                                <li>Corrente Russa</li>
+                                <li>Limpeza de pele profunda</li>
+                                <li>Massagem Modeladora</li>
+                                <li>Peeling Quimico e Diamante</li>
+                                <li>Reflexologia e Shiatsu Corporativo e para Festas e Eventos</li>
+                                <li>Tratamento para Manchas com luz Pulsada</li>
+                            </ol>
+                        </div>
+                        <div class="col-md-6 col-xs-pull-6">
+                            <p>O Day Spa nada mais é que um pacote onde são agregados serviços que vão 
+                                desde massagens relaxantes, a tratamentos faciais, serviços em pés e mãos, 
+                                além de shiatsu, banhos, ofurô e aromoterapia. Enfim, não há uma receita de 
+                                bolo, mas há resultado: bem estar.</p>
+                                <p> Há pacotes para todos os tipos, dos mais 
+                                simples aos mais completos. Os valores também vão variar de acordo com os 
+                                serviços agregados ou as instalações disponíveis. 
+                                <p>
+                                Você monta seu Day Spa: 
+                                pode incluir, massagem com bambu, ritual no couro cabeludo, sais… Enfim, 
+                                não faltam opções. Alguns incluem refeição, dependendo do tempo que você 
+                                disponibiliza para seu dia de relax.
+                                </p>
+                                <p>
+                                Consulte os pacotes e valores via e-mail.
+                                </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -216,7 +222,8 @@
                        </div>
                        <div class="col-md-6">
                               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.4656591564244!2d-43.442453584506865!3d-22.748093885092757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99664e849612eb%3A0xacb00eb10081b17f!2sFlexibilite+Pilates+%26+Est%C3%A9tica!5e0!3m2!1spt-BR!2sbr!4v1475373744562" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>
-                           <p>Telefone: (21) 96435-0727</p>
+                           <p><a href="tel:02126667731"><i class="fa fa-phone fa-2" aria-hidden="true"></i> (21) 2666-7731 </a> / <a href="tel:021964350727"> <i class="fa fa-whatsapp fa-2" aria-hidden="true"></i> (21) 96435-0727 </a></p>
+                           <p></p>
                            <p>Rua Luís Sobral, 1223 - Metrópole, Nova Iguaçu - RJ, 26013-736</p>
                        </div>
                     </div>
